@@ -1,69 +1,86 @@
-/* Global Styles */
+/* Elegant New Yorker-Inspired Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #fffdfa;
+    color: #111;
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 header {
-    background-color: #3a3a3a;
-    color: white;
+    background-color: #f6f3ef;
+    color: #111;
     padding: 80px 20px;
     text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
 header h1 {
     font-size: 3em;
     margin-bottom: 10px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
 }
 
 header p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+    font-size: 1.25em;
+    max-width: 700px;
+    margin: 0 auto 20px;
 }
 
 .cta-button {
-    background-color: #5a4e3c;
-    color: white;
-    padding: 15px 30px;
+    background-color: #111;
+    color: #fff;
+    padding: 12px 28px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'Georgia', serif;
+    transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #7a674c;
+    background-color: #333;
 }
 
 /* Section Styles */
 section {
-    padding: 40px 20px;
-    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e2dfdb;
+    text-align: left;
 }
 
 section h2 {
     font-size: 2em;
     margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
 }
 
 ul {
-    list-style: none;
+    list-style-type: disc;
+    margin-left: 20px;
     padding: 0;
 }
 
 ul li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 footer {
-    background-color: #3a3a3a;
-    color: white;
-    padding: 20px;
+    background-color: #f6f3ef;
+    color: #555;
+    padding: 30px 20px;
     text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
+    border-top: 1px solid #ddd;
 }
 
 footer p {
