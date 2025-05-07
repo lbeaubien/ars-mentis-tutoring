@@ -1,88 +1,67 @@
-/* Elegant New Yorker-Inspired Styles */
+/* Base styles */
 body {
-    font-family: 'Georgia', serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fffdfa;
-    color: #111;
-    line-height: 1.6;
-    font-size: 18px;
+  font-family: Georgia, 'Times New Roman', serif;
+  background-color: #fdfdfb; /* off-white, more refined than beige */
+  color: #111;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
-header {
-    background-color: #f6f3ef;
-    color: #111;
-    padding: 80px 20px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
+h1, h2 {
+  font-weight: 400;
+  margin-top: 0;
 }
 
-header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-    font-weight: normal;
-    letter-spacing: 0.5px;
+h1 {
+  font-size: 2.5em;
 }
 
-header p {
-    font-size: 1.25em;
-    max-width: 700px;
-    margin: 0 auto 20px;
+h2 {
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
 }
 
-.cta-button {
-    background-color: #111;
-    color: #fff;
-    padding: 12px 28px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 4px;
-    display: inline-block;
-    margin-top: 20px;
-    font-family: 'Georgia', serif;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-    background-color: #333;
-}
-
-/* Section Styles */
-section {
-    padding: 60px 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    border-bottom: 1px solid #e2dfdb;
-    text-align: left;
-}
-
-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
+/* Layout */
+header, section, footer {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 ul {
-    list-style-type: disc;
-    margin-left: 20px;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 ul li {
-    margin-bottom: 12px;
+  margin: 0.5rem 0;
 }
 
+/* Button */
+.cta-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.4rem;
+  border: 1px solid #111;
+  background-color: #fff;
+  color: #111;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #111;
+  color: #fff;
+}
+
+/* Footer */
 footer {
-    background-color: #f6f3ef;
-    color: #555;
-    padding: 30px 20px;
-    text-align: center;
-    font-size: 0.9em;
-    font-style: italic;
-    border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 4rem;
 }
 
-footer p {
-    margin: 0;
-}
